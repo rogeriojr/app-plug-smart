@@ -387,6 +387,7 @@ const Register = ({ navigation }) => {
       await handleRequestActivate(telefoneParaAPI);
       navigation.navigate("UserActivation", {
         email: formData.email,
+        senha: formData.senha,
         register: true,
       });
     } catch (error) {

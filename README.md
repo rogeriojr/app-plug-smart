@@ -17,10 +17,20 @@ O **App Plug Smart** é um aplicativo desenvolvido em **React Native com Expo** 
 ## 📸 Demonstração
 
 🔹 **Prints do Aplicativo**
+![Imagem do WhatsApp de 2025-03-03 à(s) 13 46 57_044aa759](https://github.com/user-attachments/assets/47fb7a7f-3571-4b30-a45c-71d578206fa6)
 
+![Imagem do WhatsApp de 2025-03-03 à(s) 13 47 00_c3affb77](https://github.com/user-attachments/assets/9d9463e5-6f1d-4972-be9f-c0f614634b5a)
+
+
+![Imagem do WhatsApp de 2025-03-03 à(s) 13 47 17_cd939dd8](https://github.com/user-attachments/assets/7f80a112-2503-466d-b80f-c0eb893821b0)
+
+![Imagem do WhatsApp de 2025-03-03 à(s) 13 50 39_c0b2f7bc](https://github.com/user-attachments/assets/0c58528a-ad56-45b5-a5e7-1c1bef710714)
 
 
 🔹 **Demonstração em Vídeo**
+
+![video1](https://github.com/user-attachments/assets/cdaa0259-e262-4433-a8b8-6b65157dcda3)
+
 
 
 

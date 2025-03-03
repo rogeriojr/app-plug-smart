@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "version": ">= 10.2.3"
+  },
+  "build": {
+    "local": {
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "ios": {}
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "Sua Apple ID",
+        "ascAppId": "Sua App Store Connect App ID"
+      },
+      "android": {}
+    }
+  }
+}

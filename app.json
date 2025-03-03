@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Peg Pag Smart 24h",
+    "slug": "pegpag",
+    "version": "2.3.9",
+    "runtimeVersion": "2.3.9",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Usamos a câmera do dispositivo para permitir que você faça uma selfie ao se registrar e para ler QR Codes que liberam acesso ao freezer.",
+        "NSMicrophoneUsageDescription": "Permita que o PegPag acesse seu microfone para gravações em interações futuras.",
+        "NSLocationWhenInUseUsageDescription": "Precisamos de sua localização para registrar o momento em que você acessa o ambiente controlado. Isso é importante para evitar danos como roubo.",
+        "NSLocationAlwaysUsageDescription": "Precisamos de sua localização para registrar o momento em que você acessa o ambiente controlado. Isso é importante para evitar danos como roubo.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Precisamos de sua localização para registrar o momento em que você acessa o ambiente controlado. Isso é importante para evitar danos como roubo.",
+        "NSUserTrackingUsageDescription": "Precisamos da sua permissão para rastrear dados de forma anônima e oferecer uma experiência personalizada, como anúncios relevantes e ofertas especiais."
+      },
+      "bundleIdentifier": "com.pegpag.smart24h"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.FOREGROUND_SERVICE"
+      ],
+      "package": "com.pegpag.smart24",
+      "versionCode": 29
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Usamos a câmera do dispositivo para digitalizar QR Codes que liberam acesso a um ambiente controlado."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Precisamos da câmera para digitalizar QR Codes e capturar fotos de perfil."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Precisamos acessar suas fotos para que você compartilhe imagens dentro do aplicativo."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Precisamos acessar sua localização para registrar o momento em que você interage com o ambiente controlado."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "005e0c26-528b-4020-9222-7eb17fa0a158"
+      }
+    }
+  }
+}

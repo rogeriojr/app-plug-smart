@@ -103,9 +103,11 @@ const UserActivation = ({ route }) => {
     setIsLoading(true);
     try {
       const response = await usersServices.activateUser(email, code);
-      console.log("Resposta da ativação:", response);
-
-      if (route.params?.register && response.status === 200) {
+      console.log(route.params?.register, "route.params?.register");
+      if (
+        route.params?.register &&
+        response.data.message == "Usuário ativado com sucesso"
+      ) {
         navigation.navigate("Login", {
           email: route.params?.email,
           senha: route.params?.senha,

@@ -385,7 +385,10 @@ const Register = ({ navigation }) => {
 
       await registerUser(formattedData);
       await handleRequestActivate(telefoneParaAPI);
-      navigation.navigate("UserActivation", { email: formData.email });
+      navigation.navigate("UserActivation", {
+        email: formData.email,
+        register: true,
+      });
     } catch (error) {
       console.error("Erro ao registrar:", error);
       Alert.alert("Erro", error.message || "Falha no cadastro");
@@ -401,9 +404,8 @@ const Register = ({ navigation }) => {
   };
 
   const openLinkTerms = () => {
-    // ADICIONAR SUA API
-    Linking.openURL("https://plugsmart.com/politica-privacidade").catch((err) =>
-      console.error("Erro ao abrir o link:", err)
+    Linking.openURL("https://pegpagsmart24.com/politica-privacidade").catch(
+      (err) => console.error("Erro ao abrir o link:", err)
     );
   };
 

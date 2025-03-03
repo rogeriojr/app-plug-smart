@@ -1,6 +1,5 @@
 # App Plug Smart
 
-![Logo do Projeto](https://via.placeholder.com/800x200.png?text=App+Plug+Smart)
 
 ## 📌 Sobre o Projeto
 
@@ -98,4 +97,4 @@ Contribuições são bem-vindas! Siga os passos:
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ---
-Feito com ❤️ por [Seu Nome](https://github.com/seu-usuario)
+Feito com ❤️ por [Rogério Jr.](https://github.com/rogeriojr)
